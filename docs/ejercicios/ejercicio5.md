@@ -53,12 +53,8 @@ Incompatibilidades:
 | 3 - 4 | si            |
 | 4 - 1 | si            |
 
-```mermaid
-graph LR
-    1 --- 2
-    2 --- 3
-    3 --- 4
-    4 --- 1
+```cytoscape
+{"nodes": [1, 2, 3, 4], "edges": [[1,2],[2,3],[3,4],[4,1]]}
 ```
 
 Se puede dividir en:
@@ -88,11 +84,8 @@ NO
 
 Estudiantes: 1, 2, 3.
 
-```mermaid
-graph LR
-    1 --- 2
-    2 --- 3
-    3 --- 1
+```cytoscape
+{"nodes": [1, 2, 3], "edges": [[1,2],[2,3],[3,1]]}
 ```
 
 Forman un ciclo de longitud impar (triángulo). No importa cómo se dividan, siempre habrá al menos un par de incompatibles en el mismo equipo:
@@ -128,12 +121,8 @@ SI
 
 Estudiantes: 1, 2, 3, 4, 5, 6.
 
-```mermaid
-graph LR
-    1 --- 2
-    2 --- 3
-    3 --- 4
-    5 --- 6
+```cytoscape
+{"nodes": [1, 2, 3, 4, 5, 6], "edges": [[1,2],[2,3],[3,4],[5,6]]}
 ```
 
 Hay dos componentes conexas: {1,2,3,4} y {5,6}. Ambas son bipartitas:
@@ -171,16 +160,8 @@ NO
 
 Estudiantes: 1, 2, 3, 4, 5, 6, 7.
 
-```mermaid
-graph LR
-    1 --- 2
-    2 --- 3
-    3 --- 4
-    4 --- 5
-    5 --- 3
-    1 --- 6
-    6 --- 7
-    7 --- 1
+```cytoscape
+{"nodes": [1, 2, 3, 4, 5, 6, 7], "edges": [[1,2],[2,3],[3,4],[4,5],[5,3],[1,6],[6,7],[7,1]]}
 ```
 
 El subgrafo formado por los vértices 3, 4 y 5 forma un ciclo de longitud impar (triángulo). No es posible dividir estos tres vértices en dos equipos sin que haya incompatibles juntos.

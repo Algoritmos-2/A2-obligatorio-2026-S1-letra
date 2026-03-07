@@ -11,7 +11,7 @@ Los planetas se identifican por su **nombre** (una cadena de caracteres). La tab
 ## Entrada
 
 - La primera línea contiene dos enteros $N$ y $M$ ($1 \leq N \leq 10^5$, $0 \leq M \leq 10^5$), la cantidad de planetas y la cantidad de portales, respectivamente.
-- Las siguientes $M$ líneas contienen dos cadenas $A$ y $B$ y un entero $C$ ($1 \leq C \leq 10^6$), que representan un portal bidireccional entre el planeta $A$ y el planeta $B$ con un costo de energía $C$.
+- Las siguientes $M$ líneas contienen dos cadenas $A$ y $B$ y un entero $C$ ($1 \leq C \leq 10^6$), que representan un portal bidireccional entre el planeta $A$ y el planeta $B$ con un costo de energía $C$. No existen costos negativos.
 - La última línea contiene dos cadenas $O$ y $D$, que representan el planeta de origen y el planeta de destino.
 
 Los nombres de los planetas son cadenas de letras latinas minúsculas con longitud entre 1 y 20.
@@ -51,10 +51,8 @@ terra borde
 
 Planetas: terra, nova, centro, lejano, borde.
 
-```
-terra --10-- nova --5-- centro --20-- lejano --10-- borde
-  |                       |                           |
-  +--------30-------------+------------15-------------+
+```cytoscape
+{"nodes": ["terra", "nova", "centro", "lejano", "borde"], "edges": [["terra","nova",10],["nova","centro",5],["centro","lejano",20],["lejano","borde",10],["terra","centro",30],["centro","borde",15]]}
 ```
 
 Caminos posibles de terra a borde:
@@ -82,6 +80,10 @@ alfa gamma
 
 ### Explicación 2
 
+```cytoscape
+{"nodes": ["alfa", "beta", "gamma"], "edges": [["alfa","beta",5]]}
+```
+
 Solo existe un portal entre alfa y beta. No hay forma de llegar de alfa a gamma. Resultado: **-1**.
 
 ---
@@ -106,13 +108,9 @@ sol jupiter
 
 ### Explicación 3
 
-| Portal           | Costo |
-| ---------------- | ----- |
-| sol ↔ luna       | 3     |
-| sol ↔ marte      | 7     |
-| luna ↔ marte     | 1     |
-| luna ↔ jupiter   | 10    |
-| marte ↔ jupiter  | 2     |
+```cytoscape
+{"nodes": ["sol", "luna", "marte", "jupiter"], "edges": [["sol","luna",3],["sol","marte",7],["luna","marte",1],["luna","jupiter",10],["marte","jupiter",2]]}
+```
 
 Caminos de sol a jupiter:
 - sol → luna → jupiter: $3 + 10 = 13$
@@ -145,15 +143,9 @@ alpha zeta
 
 ### Explicación 4
 
-| Portal              | Costo |
-| ------------------- | ----- |
-| alpha ↔ beta        | 4     |
-| alpha ↔ gamma       | 2     |
-| beta ↔ delta        | 5     |
-| gamma ↔ beta        | 1     |
-| gamma ↔ epsilon     | 10    |
-| delta ↔ zeta        | 2     |
-| epsilon ↔ zeta      | 7     |
+```cytoscape
+{"nodes": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta"], "edges": [["alpha","beta",4],["alpha","gamma",2],["beta","delta",5],["gamma","beta",1],["gamma","epsilon",10],["delta","zeta",2],["epsilon","zeta",7]]}
+```
 
 Ejecución de Dijkstra desde alpha:
 
