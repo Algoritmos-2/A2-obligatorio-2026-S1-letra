@@ -16,7 +16,7 @@ Dado el plano del edificio, determine la **cantidad mínima de llaves adicionale
 
 ## Entrada
 
-- La primera línea contiene un entero positivo $n$ ($2 \leq n \leq 10^8$), la cantidad de salas del edificio.
+- La primera línea contiene un entero positivo $n$ ($2 \leq n \leq 10^7$), la cantidad de salas del edificio.
 - La segunda línea contiene una cadena $s$ de longitud $2n - 2$.
 
 Las posiciones **impares** de la cadena contienen letras latinas minúsculas: los tipos de llaves que se encuentran en las salas correspondientes.
