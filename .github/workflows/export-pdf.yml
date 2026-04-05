@@ -1,0 +1,37 @@
+name: Export PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'scripts/**'
+      - 'assets/**'
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Export Obligatorio 1
+        run: npm run export:oblig1
+
+      - name: Export Obligatorio 2
+        run: npm run export:oblig2
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: obligatorios-pdf
+          path: |
+            obligatorio1.pdf
+            obligatorio2.pdf
