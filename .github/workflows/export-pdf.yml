@@ -3,10 +3,6 @@ name: Export PDFs
 on:
   push:
     branches: [main]
-    paths:
-      - 'docs/**'
-      - 'scripts/**'
-      - 'assets/**'
   workflow_dispatch:
 
 permissions:
