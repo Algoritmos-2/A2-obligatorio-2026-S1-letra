@@ -1,0 +1,32 @@
+30
+20 20 20 2 28
+794362 linterna 4 1 7 4 supervivencia
+571755 alfajor 1 1 1 2 comida
+861703 banana 5 1 3 6 comida
+120064 cuerda 1 3 5 5 supervivencia
+305228 arroz 1 3 5 4 comida
+726894 fideos 3 2 5 1 comida
+90180 manta 4 3 1 5 supervivencia
+380529 galletitas 5 2 3 5 comida
+94108 brujula 2 1 2 7 supervivencia
+357246 atun 2 2 1 10 comida
+51010 botiquin 1 3 4 9 supervivencia
+377873 navaja 2 1 3 5 supervivencia
+235704 fosforos 5 2 1 5 supervivencia
+426368 agua 2 2 6 5 comida
+426415 manzana 2 3 4 3 comida
+928605 cereal 3 2 7 6 comida
+364594 cantimplora 3 1 5 6 supervivencia
+565945 chocolate 5 2 1 2 comida
+353175 yerba 2 2 2 6 comida
+501069 pan 2 2 2 10 comida
+184254 queso 2 3 7 9 comida
+4125 jugo 2 2 3 1 comida
+861173 lentejas 2 1 2 4 comida
+646670 impermeable 1 3 1 7 supervivencia
+49101 papas 3 1 3 8 comida
+510832 fruta 5 3 3 2 comida
+569252 radio 5 2 5 10 supervivencia
+675020 pila 1 1 2 3 supervivencia
+672892 sopa 3 2 1 6 comida
+189591 leche 5 3 2 9 comida
