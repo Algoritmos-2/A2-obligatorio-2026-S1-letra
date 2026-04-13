@@ -40,8 +40,8 @@ Si no existe ninguna selección que cumpla simultáneamente todas las restriccio
 
 ## Entrada
 
-- La primera línea contiene un entero positivo $n$ ($1 \leq n \leq 200$), la cantidad de objetos disponibles.
-- La segunda línea contiene cinco enteros positivos $P$, $V$, $C$, $S$ y $M$ ($1 \leq P, V, C \leq 200$, $0 \leq S, M \leq n$), donde:
+- La primera línea contiene un entero positivo $n$ ($1 \leq n \leq 35$), la cantidad de objetos disponibles.
+- La segunda línea contiene cinco enteros positivos $P$, $V$, $C$, $S$ y $M$ ($1 \leq P, V, C \leq 30$, $0 \leq S, M \leq n$), donde:
 
   - $P$ es el peso máximo permitido,
   - $V$ es el volumen máximo permitido,
@@ -71,7 +71,7 @@ donde:
 
 Si existe una solución válida, imprimir:
 
-- en la primera línea, dos enteros: el valor total máximo alcanzado y el peso total de una solución óptima;
+- en la primera línea, dos enteros: el valor total máximo alcanzado y el peso total de una solución óptima (separados por un espacio);
 - en la segunda línea, un entero $k$: la cantidad de objetos seleccionados;
 - luego $k$ líneas, cada una con el nombre de un objeto elegido, en orden creciente de id.
 
@@ -92,6 +92,7 @@ Imposible
   - en caso de empate, menor peso total.
 - La reconstrucción de la solución óptima debe realizarse a partir de la tabla de programación dinámica.
 - Para imprimir los objetos seleccionados en orden creciente de id, deberá utilizarse una estructura de datos adecuada.
+- Si durante la reconstrucción existieran múltiples decisiones válidas que conduzcan a soluciones con igual valor total e igual peso total, se preferirá seleccionar el objeto actual.
 
 ---
 
@@ -112,11 +113,11 @@ Imposible
 ### Output
 
 ```
-21 8
+22 9
 3
 linterna
 arroz
-cuerda
+manta
 ```
 
 ---
@@ -125,16 +126,16 @@ cuerda
 
 Una selección válida es:
 
-- 3200 linterna: peso 2, volumen 2, costo 3, valor 6, supervivencia  
-- 4100 arroz: peso 3, volumen 4, costo 3, valor 7, comida  
-- 5001 cuerda: peso 3, volumen 2, costo 4, valor 8, supervivencia  
+- 9200 manta: peso 4, volumen 3, costo 5, valor 9, supervivencia
+- 4100 arroz: peso 3, volumen 4, costo 3, valor 7, comida
+-	3200 linterna: peso 2, volumen 2, costo 3, valor 6, supervivencia
 
 Totales:
 
-- peso = 8  
-- volumen = 8  
-- costo = 10  
-- valor = 21  
+- peso = 9  
+- volumen = 9  
+- costo = 11  
+- valor = 22  
 
 Se cumple:
 
@@ -146,4 +147,4 @@ Se cumple:
 
 No existe otra selección válida con mayor valor total.
 
-Los objetos se imprimen ordenados por id creciente: $3200 < 4100 < 5001$.
+Los objetos se imprimen ordenados por id creciente: $3200 < 4100 < 9200$.
