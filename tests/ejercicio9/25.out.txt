@@ -1,0 +1,10 @@
+58 20
+8
+cuerda
+botiquin
+manta
+agua
+linterna
+impermeable
+pan
+banana

@@ -1,0 +1,7 @@
+5
+10 12 11 2 2
+5001 cuerda 3 2 4 8 supervivencia
+3200 linterna 2 2 3 6 supervivencia
+8700 galletitas 3 4 4 1 comida
+4100 arroz 3 4 3 7 comida
+9200 manta 4 3 5 9 supervivencia
