@@ -17,7 +17,7 @@ Entre todas las selecciones válidas (incluyendo la **mochila vacía**, que siem
 ## Entrada
 
 - La primera línea contiene un entero $n$ ($1 \leq n \leq 35$), la cantidad de objetos disponibles.
-- La segunda línea contiene cinco enteros $P$, $V$, $C$, $S$ y $M$ ($1 \leq P, V, C \leq 30$, $0 \leq S, M \leq n$): el peso máximo, el volumen máximo, el costo máximo, la cantidad máxima de objetos de supervivencia y la cantidad máxima de objetos de comida, respectivamente.
+- La segunda línea contiene cinco enteros $P$, $V$, $C$, $S$ y $M$ ($1 \leq P, V, C \leq 20$, $0 \leq S, M \leq 15$): el peso máximo, el volumen máximo, el costo máximo, la cantidad máxima de objetos de supervivencia y la cantidad máxima de objetos de comida, respectivamente.
 - Las siguientes $n$ líneas describen un objeto cada una, con el formato:
 
   ```
