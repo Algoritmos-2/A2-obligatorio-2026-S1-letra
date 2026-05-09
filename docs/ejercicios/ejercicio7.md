@@ -2,50 +2,34 @@
 
 ## Descripción
 
-En Uruguay, como todos los años, se lleva a cabo el famoso **Iron Man**, una triatlón que, como su nombre lo indica, consta de tres disciplinas:
+El **Iron Man** es una triatlón que combina tres disciplinas: natación, ciclismo y carrera a pie. Por motivos de organización los competidores no comienzan al mismo tiempo, por lo que el primero en cruzar la meta no es necesariamente el ganador: el resultado se determina sumando los tiempos parciales de cada competidor en las tres disciplinas.
 
-- Natación  
-- Ciclismo  
-- Carrera a pie  
-
-Por motivos de organización, los competidores **no comienzan la carrera al mismo tiempo**. Debido a esto, el primero en cruzar la meta no necesariamente es el ganador.
-
-El resultado final se determina sumando los tiempos de cada competidor en las tres disciplinas.
-
-Su tarea es **ordenar a los competidores según su tiempo total**, de menor a mayor (menor tiempo = mejor posición).
+Dada la lista de tiempos de los $L$ competidores, ordene a los competidores **de menor a mayor tiempo total** (menor tiempo equivale a mejor posición). El tiempo total del competidor $i$ se calcula como $T_i = N_i + B_i + C_i$.
 
 ## Entrada
 
-- La primera línea contiene un entero positivo $L$, la cantidad de competidores.
-- Las siguientes $L$ líneas contienen los tiempos de natación:  
-  $N_1, N_2, \dots, N_L$
-- Las siguientes $L$ líneas contienen los tiempos de ciclismo:  
-  $B_1, B_2, \dots, B_L$
-- Las siguientes $L$ líneas contienen los tiempos de carrera a pie:  
-  $C_1, C_2, \dots, C_L$
+- La primera línea contiene un entero $L$ ($1 \leq L \leq 10^6$), la cantidad de competidores.
+- Las siguientes $L$ líneas contienen los tiempos de **natación** ($N_1, \dots, N_L$), una por competidor.
+- Las siguientes $L$ líneas contienen los tiempos de **ciclismo** ($B_1, \dots, B_L$), una por competidor.
+- Las siguientes $L$ líneas contienen los tiempos de **carrera a pie** ($C_1, \dots, C_L$), una por competidor.
+
+Cada tiempo es un entero $1 \leq T \leq 10^6$. Los competidores se identifican por su orden de entrada, comenzando en $1$.
 
 ## Salida
 
-Imprimir $L$ líneas con el orden de los competidores:
-
-- $O_1, O_2, \dots, O_L$
-
-Donde $O_i$ representa el índice del competidor en la posición $i$ (ordenados de menor a mayor tiempo total).
-
-## Notas
-
-- El tiempo total de cada competidor se calcula como:  
-  $T_i = N_i + B_i + C_i$
-- En caso de empate, se puede mantener el orden original de los competidores.
+Imprima $L$ líneas con los índices (1-indexados) de los competidores ordenados de menor a mayor tiempo total. Si dos competidores tienen el mismo tiempo total, deben aparecer en el mismo orden en que fueron ingresados.
 
 ## Restricciones
 
-- La solución debe implementarse utilizando la técnica de **Divide and Conquer (D&C)**.
-- Complejidad esperada: $O(L \log L)$.
+- Resolver utilizando **merge sort** (ordenamiento por divide and conquer).
+- Complejidad temporal: $O(L \log L)$ en el peor caso.
+- Complejidad espacial: $O(L)$ memoria auxiliar.
 
 ## Ejemplo
 
 ### Input
+
+```
 3
 10
 12
@@ -56,24 +40,22 @@ Donde $O_i$ representa el índice del competidor en la posición $i$ (ordenados 
 30
 28
 35
-
-### Cálculo de tiempos
-
-| Corredor | Natación | Ciclismo | Carrera | Total |
-|----------|----------|----------|---------|--------|
-| 1        | 10       | 20       | 30      | 60     |
-| 2        | 12       | 18       | 28      | 58     |
-| 3        | 9        | 25       | 35      | 69     |
-
-### Orden
-
-Ordenando por tiempo total (menor a mayor):
-
-1. Corredor 2 → 58  
-2. Corredor 1 → 60  
-3. Corredor 3 → 69  
+```
 
 ### Output
+
+```
 2
 1
 3
+```
+
+### Explicación
+
+| Competidor | Natación | Ciclismo | Carrera | Total |
+| ---------- | -------- | -------- | ------- | ----- |
+| 1          | 10       | 20       | 30      | 60    |
+| 2          | 12       | 18       | 28      | 58    |
+| 3          | 9        | 25       | 35      | 69    |
+
+Ordenando de menor a mayor tiempo total: **2** (58), **1** (60), **3** (69).
