@@ -1,6 +1,1 @@
-40 7
-4
-encendedor
-cantimplora
-poncho
-sarten
+86 30 10

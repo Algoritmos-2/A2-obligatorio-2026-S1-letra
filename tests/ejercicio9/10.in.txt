@@ -1,12 +1,12 @@
 10
-20 20 20 10 0
-751553 alfajor 5 3 3 3 comida
-353155 linterna 5 3 7 10 supervivencia
-639344 banana 3 2 4 10 comida
-475402 cuerda 4 2 4 1 supervivencia
-380845 arroz 5 2 2 7 comida
-457697 manta 5 2 1 3 supervivencia
-304008 brujula 1 3 7 10 supervivencia
-59317 botiquin 4 3 2 2 supervivencia
-642605 fideos 4 2 1 5 comida
-114392 galletitas 1 2 6 5 comida
+20 20 20 3 7
+3 3 2 4 comida
+3 2 3 6 comida
+5 2 5 2 supervivencia
+1 3 5 3 comida
+3 3 4 5 supervivencia
+4 2 7 7 comida
+2 2 1 4 supervivencia
+5 2 6 4 comida
+1 1 3 3 supervivencia
+5 1 3 3 comida

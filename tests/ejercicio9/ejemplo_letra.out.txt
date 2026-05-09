@@ -1,5 +1,1 @@
-22 9
-3
-linterna
-arroz
-manta
+22 9 3

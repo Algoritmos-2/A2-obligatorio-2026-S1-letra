@@ -1,5 +1,5 @@
 3
 10 10 10 1 1
-100 anzuelo 3 3 3 5 supervivencia
-200 botiquin 3 3 3 6 supervivencia
-300 caramelo 3 3 3 7 comida
+3 3 3 5 supervivencia
+3 3 3 6 supervivencia
+3 3 3 7 comida

@@ -1,37 +1,37 @@
 35
-30 30 30 9 26
-714736 alfajor 1 1 1 6 comida
-187879 banana 1 2 2 3 comida
-8109 arroz 2 3 7 6 comida
-54555 fideos 3 2 1 2 comida
-525759 galletitas 3 1 2 6 comida
-804123 atun 2 1 2 9 comida
-804440 agua 1 3 2 1 comida
-319655 manzana 4 2 5 9 comida
-559703 cereal 1 1 2 8 comida
-985815 chocolate 5 2 7 3 comida
-831502 yerba 4 3 1 10 comida
-381747 pan 5 1 5 6 comida
-800546 queso 3 3 7 9 comida
-373068 jugo 5 3 4 8 comida
-588109 lentejas 2 2 4 3 comida
-447530 papas 5 2 7 3 comida
-703912 fruta 3 3 1 4 comida
-926768 sopa 5 1 3 4 comida
-90816 leche 4 2 3 3 comida
-67362 miel 1 2 2 4 comida
-420146 galleta 4 2 4 2 comida
-348588 barra_cereal 4 3 5 7 comida
-958999 dulce_leche 1 1 6 8 comida
-447903 mermelada 2 1 4 8 comida
-206563 azucar 4 1 3 4 comida
-280425 sal 3 2 7 6 comida
-212805 cafe 2 3 7 8 comida
-507943 te 4 1 2 7 comida
-648695 cacao 5 3 7 9 comida
-890198 avena 1 1 6 8 comida
-894730 granola 4 2 4 9 comida
-705234 pasas 3 3 2 3 comida
-893027 nueces 4 2 3 10 comida
-326087 almendras 5 3 5 8 comida
-308988 mani 5 2 2 1 comida
+30 30 30 30 5
+4 1 3 5 comida
+3 2 1 3 comida
+4 1 7 9 comida
+4 2 6 4 comida
+1 2 4 8 comida
+4 3 1 9 comida
+1 3 4 8 comida
+2 1 7 3 comida
+1 3 4 1 comida
+4 1 1 6 comida
+5 2 7 4 comida
+4 3 6 7 comida
+5 1 4 1 comida
+2 3 5 9 comida
+5 3 3 5 comida
+2 3 3 2 comida
+2 3 5 4 comida
+1 2 6 1 comida
+2 3 5 6 comida
+4 2 4 6 comida
+5 2 7 3 comida
+5 2 7 1 comida
+2 3 2 6 comida
+2 1 7 1 comida
+2 1 4 7 comida
+2 1 1 8 comida
+1 3 6 4 comida
+1 3 6 10 comida
+2 2 1 5 comida
+3 3 6 8 comida
+5 2 4 3 comida
+5 2 5 4 comida
+2 2 5 3 comida
+3 3 5 3 comida
+5 2 5 10 comida

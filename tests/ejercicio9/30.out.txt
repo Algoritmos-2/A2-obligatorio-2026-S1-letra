@@ -1,11 +1,1 @@
-67 20
-9
-papas
-botiquin
-leche
-yerba
-atun
-pan
-alfajor
-impermeable
-sopa
+60 20 8

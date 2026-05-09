@@ -1,17 +1,17 @@
 15
-20 20 20 11 4
-50566 linterna 5 1 4 10 supervivencia
-374061 cuerda 5 3 6 9 supervivencia
-160187 alfajor 4 1 7 8 comida
-61353 manta 2 1 5 6 supervivencia
-813996 banana 1 2 5 7 comida
-166086 brujula 2 2 4 5 supervivencia
-553410 botiquin 3 3 2 9 supervivencia
-820945 navaja 3 3 5 10 supervivencia
-488693 fosforos 2 3 4 2 supervivencia
-814175 cantimplora 4 1 3 10 supervivencia
-118212 impermeable 3 2 5 8 supervivencia
-656080 arroz 5 3 7 2 comida
-774224 fideos 4 2 4 1 comida
-601070 radio 4 2 3 5 supervivencia
-202670 galletitas 5 1 6 5 comida
+20 20 20 0 15
+3 3 7 8 comida
+2 1 6 1 comida
+5 3 7 4 comida
+1 1 3 3 comida
+5 3 3 2 supervivencia
+1 1 1 1 supervivencia
+4 3 6 1 comida
+3 3 2 6 supervivencia
+3 1 3 10 comida
+3 1 3 9 comida
+4 1 6 4 comida
+5 2 2 9 supervivencia
+4 3 4 6 comida
+4 2 7 2 supervivencia
+5 3 4 2 supervivencia

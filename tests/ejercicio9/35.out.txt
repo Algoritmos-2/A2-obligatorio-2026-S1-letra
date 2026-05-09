@@ -1,14 +1,1 @@
-102 29
-12
-alfajor
-banana
-jugo
-miel
-fosforos
-mapa
-cantimplora
-fideos
-impermeable
-queso
-silbato
-leche
+65 19 7

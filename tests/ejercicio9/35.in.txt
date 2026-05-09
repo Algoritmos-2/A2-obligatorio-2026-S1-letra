@@ -1,37 +1,37 @@
 35
-30 30 30 11 11
-27036 alfajor 4 2 3 9 comida
-591369 linterna 5 1 3 4 supervivencia
-118401 banana 4 3 2 8 comida
-779543 cuerda 3 3 2 5 supervivencia
-247005 manta 3 1 5 1 supervivencia
-294496 arroz 2 3 4 2 comida
-355872 brujula 5 3 7 3 supervivencia
-590091 fideos 1 1 4 8 comida
-938146 botiquin 3 3 4 9 supervivencia
-523311 navaja 5 3 7 8 supervivencia
-8837 galletitas 3 1 5 6 comida
-768313 atun 5 2 4 1 comida
-775096 agua 4 1 4 8 comida
-350050 fosforos 5 2 2 8 supervivencia
-350341 manzana 5 1 2 4 comida
-851582 cereal 1 1 6 2 comida
-420720 chocolate 4 1 5 7 comida
-846114 yerba 2 2 5 10 comida
-456027 cantimplora 2 1 4 10 supervivencia
-660535 impermeable 1 2 1 10 supervivencia
-305838 pan 3 1 1 3 comida
-694432 queso 4 2 2 8 comida
-63744 radio 2 3 6 3 supervivencia
-843063 pila 2 3 7 10 supervivencia
-156015 jugo 2 1 5 10 comida
-446880 mapa 1 2 1 10 supervivencia
-869314 silbato 1 3 1 5 supervivencia
-937909 soga 3 3 4 7 supervivencia
-154581 lentejas 5 2 5 3 comida
-440236 papas 1 1 5 6 comida
-923163 fruta 5 2 7 5 comida
-869241 sopa 3 2 4 1 comida
-974608 leche 3 2 1 7 comida
-283087 miel 1 3 4 9 comida
-796052 carpa 1 1 4 2 supervivencia
+20 20 20 25 10
+4 2 7 8 supervivencia
+5 3 4 4 supervivencia
+1 3 5 4 supervivencia
+5 1 3 9 supervivencia
+2 1 3 2 comida
+1 2 7 3 supervivencia
+1 1 6 8 comida
+3 2 6 8 supervivencia
+5 3 3 1 comida
+4 3 5 3 supervivencia
+3 1 6 2 comida
+5 3 5 2 comida
+2 3 6 5 comida
+3 3 5 10 comida
+3 3 3 2 comida
+4 2 6 2 comida
+2 1 2 5 comida
+1 1 1 3 supervivencia
+2 3 1 1 supervivencia
+3 1 3 10 comida
+4 1 1 9 comida
+4 2 7 2 comida
+3 2 6 10 comida
+2 2 7 2 supervivencia
+4 3 5 8 supervivencia
+3 1 2 4 comida
+2 1 3 10 comida
+4 3 4 4 supervivencia
+5 1 6 5 supervivencia
+3 3 5 3 comida
+1 1 3 7 supervivencia
+3 1 5 4 comida
+4 2 6 9 supervivencia
+1 3 2 10 comida
+3 1 7 10 supervivencia

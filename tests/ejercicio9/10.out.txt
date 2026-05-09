@@ -1,6 +1,1 @@
-25 15
-4
-botiquin
-brujula
-linterna
-manta
+29 16 6

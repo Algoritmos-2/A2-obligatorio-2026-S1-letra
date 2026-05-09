@@ -1,14 +1,1 @@
-89 30
-12
-miel
-mermelada
-te
-galletitas
-cereal
-fruta
-alfajor
-atun
-yerba
-avena
-nueces
-granola
+47 16 5
