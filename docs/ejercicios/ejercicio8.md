@@ -11,7 +11,7 @@ De todas las formas posibles de organizar las letras que cumplan esa condición,
 **palabra lexicográficamente mayor** (es decir, la que aparecería última en un diccionario).
 
 Dada la cadena de letras disponibles, determine la organización lexicográficamente mayor tal que no haya dos letras
-iguales adyacentes. Si no es posible armar ningún cartel válido, imprima `Imposible`.
+iguales adyacentes.
 
 ## Entrada
 
@@ -26,7 +26,7 @@ iguales adyacentes. Si no es posible armar ningún cartel válido, imprima `Impo
 ## Restricciones
 
 - Resolver usando una **estrategia greedy**.
-- **Tiempo**: $O(N)$ donde $N = |S|$.
+- **Tiempo**: $O(N)$ donde $N = |S|$, considerando el alfabeto de 26 letras como constante.
 - **Espacio**: $O(N)$.
 
 ## Ejemplo
@@ -69,6 +69,10 @@ aaabbc
 cababa
 ```
 
+### Explicación 2
+
+Letras disponibles: 3 `a`, 2 `b`, 1 `c`. La cadena `cababa` no tiene letras adyacentes iguales y es la mayor lexicográfica entre las reorganizaciones válidas. Alternativas lex mayores como `ccbbaa` o `cbabaa` quedan descartadas por tener repeticiones adyacentes.
+
 ---
 
 ### Input 3
@@ -83,6 +87,10 @@ aaa
 Imposible
 ```
 
+### Explicación 3
+
+Letras disponibles: 3 `a`. Para que tres `a` no queden adyacentes hacen falta al menos dos letras de relleno entre ellas (algo como `a?a?a`). Como no hay otras letras disponibles, no existe ninguna reorganización válida.
+
 ---
 
 ### Input 4
@@ -96,3 +104,7 @@ abcabc
 ```
 cbcaba
 ```
+
+### Explicación 4
+
+Letras disponibles: 2 `a`, 2 `b`, 2 `c`. La cadena `cbcaba` no tiene adyacencias iguales y es la mayor lexicográfica entre las válidas. Reorganizaciones lex mayores como `ccbbaa` o `cbcbaa` quedan descartadas por sus repeticiones adyacentes.
