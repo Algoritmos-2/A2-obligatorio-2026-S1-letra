@@ -12,9 +12,9 @@ Dado un conjunto de cartas y un número objetivo, determine si es posible combin
 
 ## Entrada
 
-- La primera línea contiene un entero positivo $n$ ($1 \leq n \leq 10$), la cantidad de cartas.
-- Las siguientes $n$ líneas contienen un entero cada una, el valor de cada carta.
-- La última línea contiene un entero, el valor objetivo.
+- La primera línea contiene un entero $n$ ($1 \leq n \leq 5$), la cantidad de cartas.
+- Las siguientes $n$ líneas contienen un entero cada una, el valor de cada carta ($1 \leq c_i \leq 100$).
+- La última línea contiene el valor objetivo ($1 \leq T \leq 10^4$).
 
 ## Salida
 
@@ -23,27 +23,9 @@ Imprima `1` si es posible alcanzar el objetivo utilizando todas las cartas exact
 ## Restricciones
 
 - Utilizar **backtracking** para explorar las combinaciones posibles.
-- Como la operación de división puede generar resultados no enteros, todos los cálculos intermedios deben realizarse con números de **punto flotante** (`double`). Para comparar valores se debe utilizar una tolerancia $\varepsilon = 10^{-6}$, ya que las operaciones de punto flotante pueden acumular errores de redondeo.
-
-Ejemplo en C++:
-
-```cpp
-const double EPS = 1e-6;
-
-if (abs(a - b) < EPS) {
-    // a y b se consideran iguales
-}
-```
-
-Ejemplo en Java:
-
-```java
-static final double EPS = 1e-6;
-
-if (abs(a - b) < EPS) {
-    // a y b se consideran iguales
-}
-```
+- Todas las operaciones se realizan con **enteros**; cada resultado intermedio debe ser un **entero estrictamente positivo**:
+  - La resta $a - b$ solo es válida si $a > b$.
+  - La división $a / b$ solo es válida si $b > 0$ y $a$ es múltiplo de $b$ (división exacta).
 
 ## Ejemplo
 
